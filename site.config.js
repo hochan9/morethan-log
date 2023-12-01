@@ -21,6 +21,7 @@ const CONFIG = {
   blog: {
     title: "hc.son",
     description: "welcome to hc.son!",
+    theme: "dark",
   },
 
   // CONFIG configration (required)
@@ -52,7 +53,7 @@ const CONFIG = {
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
-      label: "💬 Utterances",
+      label: "💬 Comments",
     },
   },
   cusdis: {
